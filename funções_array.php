@@ -11,8 +11,17 @@ array_unshift($alimentos, 'salada');
 //PARA NÃO TER DUPLICATAS
 $alimentos = array_unique($alimentos);
 
-print_r($alimentos);
+//print_r($alimentos);
 
+$produtos = [
+    ["suco", 'frutas'],
+    ['sorvete', 'feijão'],
+    ['brocolis', 'lentilha']
+];
+
+$produtos_item = end($produtos);
+
+print_r ($produtos_item);
 
 
 
